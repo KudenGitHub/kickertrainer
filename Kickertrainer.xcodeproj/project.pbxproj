@@ -14,6 +14,9 @@
 		7A174AA929CB22E9003A6787 /* KickertrainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A174AA829CB22E9003A6787 /* KickertrainerTests.swift */; };
 		7A174AB329CB22E9003A6787 /* KickertrainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A174AB229CB22E9003A6787 /* KickertrainerUITests.swift */; };
 		7A174AB529CB22E9003A6787 /* KickertrainerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A174AB429CB22E9003A6787 /* KickertrainerUITestsLaunchTests.swift */; };
+		7A3E4C7D2A20B2F7002AA007 /* Kickertrainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E4C7C2A20B2F7002AA007 /* Kickertrainer.swift */; };
+		7A3E4C7F2A20B422002AA007 /* GoalPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E4C7E2A20B422002AA007 /* GoalPosition.swift */; };
+		7A3E4C812A20B649002AA007 /* KickertrainerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3E4C802A20B649002AA007 /* KickertrainerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		7A174AAE29CB22E9003A6787 /* KickertrainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KickertrainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A174AB229CB22E9003A6787 /* KickertrainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickertrainerUITests.swift; sourceTree = "<group>"; };
 		7A174AB429CB22E9003A6787 /* KickertrainerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickertrainerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7A3E4C7C2A20B2F7002AA007 /* Kickertrainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kickertrainer.swift; sourceTree = "<group>"; };
+		7A3E4C7E2A20B422002AA007 /* GoalPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalPosition.swift; sourceTree = "<group>"; };
+		7A3E4C802A20B649002AA007 /* KickertrainerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KickertrainerViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				7A174A9729CB22E7003A6787 /* KickertrainerApp.swift */,
 				7A174A9929CB22E7003A6787 /* ContentView.swift */,
+				7A3E4C7C2A20B2F7002AA007 /* Kickertrainer.swift */,
+				7A3E4C7E2A20B422002AA007 /* GoalPosition.swift */,
+				7A3E4C802A20B649002AA007 /* KickertrainerViewModel.swift */,
 				7A174A9B29CB22E8003A6787 /* Assets.xcassets */,
 				7A174A9D29CB22E8003A6787 /* Preview Content */,
 			);
@@ -257,6 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3E4C7D2A20B2F7002AA007 /* Kickertrainer.swift in Sources */,
+				7A3E4C812A20B649002AA007 /* KickertrainerViewModel.swift in Sources */,
+				7A3E4C7F2A20B422002AA007 /* GoalPosition.swift in Sources */,
 				7A174A9A29CB22E7003A6787 /* ContentView.swift in Sources */,
 				7A174A9829CB22E7003A6787 /* KickertrainerApp.swift in Sources */,
 			);
@@ -423,8 +435,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,8 +464,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

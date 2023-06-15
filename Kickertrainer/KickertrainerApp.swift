@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct KickertrainerApp: App {
+    let kickertrainer = KickertrainerViewModel()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: kickertrainer)
         }
     }
 }
